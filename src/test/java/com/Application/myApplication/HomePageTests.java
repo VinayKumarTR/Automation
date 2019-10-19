@@ -54,19 +54,19 @@ public class HomePageTests {
 			HP.SelectSizeL().isDisplayed();
 		}
 
-		@Test(priority=7)
-		public void verifyOrangeDress(){
-			HP.SelectionOfOrangeDress1().click();
-		}	
-		
-		@Test(priority=7)
-		public void verifyTwitter(){
-			Assert.assertTrue(HP.Tweeting().isDisplayed());
-		}
-		@Test(priority=8)
-		public void verifyShare(){
-			Assert.assertTrue(HP.Sharing().isDisplayed());	
-		}
+//		@Test(priority=7)
+//		public void verifyOrangeDress(){
+//			HP.SelectionOfOrangeDress1().click();
+//		}	
+//		
+//		@Test(priority=7)
+//		public void verifyTwitter(){
+//			Assert.assertTrue(HP.Tweeting().isDisplayed());
+//		}
+//		@Test(priority=8)
+//		public void verifyShare(){
+//			Assert.assertTrue(HP.Sharing().isDisplayed());	
+//		}
 		
 		@Test(priority=9)
 		public void verifyAddingToCart(){
